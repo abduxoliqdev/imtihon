@@ -1,0 +1,668 @@
+@font-face {
+  font-family: 'Fredoka One';
+  src: url('//fonts/FredokaOne-Regular.woff2') format('woff2'),
+  url('//fonts/FredokaOne-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Hind Madurai';
+  src: url('//fonts/HindMadurai-Regular.woff2') format('woff2'),
+  url('//fonts/HindMadurai-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Hind Madurai';
+  src: url('//fonts/HindMadurai-Bold.woff2') format('woff2'),
+  url('//fonts/HindMadurai-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Hind Madurai';
+  src: url('//fonts/HindMadurai-Medium.woff2') format('woff2'),
+  url('//fonts/HindMadurai-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('//fonts/Roboto-Black.woff2') format('woff2'),
+  url('//fonts/Roboto-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('//fonts/Roboto-Bold.woff2') format('woff2'),
+  url('//fonts/Roboto-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Hind Madurai';
+  src: url('//fonts/HindMadurai-SemiBold.woff2') format('woff2'),
+  url('//fonts/HindMadurai-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('//fonts/Roboto-Medium.woff2') format('woff2'),
+  url('//fonts/Roboto-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('//fonts/Roboto-Light.woff2') format('woff2'),
+  url('//fonts/Roboto-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('//fonts/Roboto-Regular.woff2') format('woff2'),
+  url('//fonts/Roboto-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('//fonts/Roboto-Thin.woff2') format('woff2'),
+  url('//fonts/Roboto-Thin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  list-style: none;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  background: #f5e7ea;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-header {
+  display: flex;
+}
+
+.header-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-list-item {
+  margin-left: 30px;
+  list-style: none;
+}
+
+.header-list-link {
+  text-decoration: none;
+  color: #150101;
+  opacity: 0.6;
+  font-weight: 700;
+}
+
+.header-list-link:hover {
+  color: #D23166;
+}
+
+.botton {
+  margin-left: auto;
+  background: #D23166;
+  color: #FAFAFA;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 14px 50px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  border: 1px solid #D23166;
+}
+
+.botton:hover {
+  background-color: #FFFFFF;
+  color: #D23166;
+  border: 1px solid #D23166;
+}
+
+/* MAIN */
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.home-text {
+  width: 655px;
+}
+
+.home-text-item {
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.1em;
+  color: #0F0101;
+}
+
+.home-text-title {
+  font-size: 57.33px;
+  color: #0F0101;
+  display: inline;
+}
+
+.homepage {
+  padding: 100px 0;
+  background: #f5e7ea;
+}
+
+.home-text-title-red {
+  font-weight: 400;
+  display: inline;
+  font-size: 57.33px;
+  line-height: 120.5%;
+  color: #D23166;
+}
+
+.home-text-sub-title {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-family: 'Hind Madurai';
+  width: 523px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #0F0101;
+  opacity: 0.6;
+}
+
+.home-images {
+  margin-bottom: 600px;
+  position: relative;
+}
+
+.home-img {
+  position: absolute;
+  right: -100px;
+  top: 20px;
+  z-index: 10;
+  width: 850px;
+  height: 700px;
+}
+
+
+.cards {
+  padding: 100px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card {
+  text-align: center;
+  padding: 33px 26px;
+  width: 250px;
+  height: 200px;
+  background: #FFFFFF;
+}
+
+.card:hover {
+  background: #FFFFFF;
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.1);
+  border-radius: 7px;
+}
+
+.card-title {
+  margin: 10px;
+}
+
+
+
+.section {
+  background: #F8EDF0;
+  margin-bottom: 137px;
+}
+
+.brown {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.brown-text {
+  width: 655px;
+}
+
+.brown-text-item {
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.1em;
+  color: #0F0101;
+}
+
+.brown-text-title {
+  font-weight: 600;
+  font-size: 44.2px;
+  line-height: 49px;
+  color: #150101;
+}
+
+.brown-text-sub-title {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-family: 'Hind Madurai';
+  width: 349px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #0F0101;
+  opacity: 0.6;
+}
+.brown-images {
+  margin-bottom: 600px;
+  position: relative;
+}
+.brown-img {
+  position: absolute;
+  right: -100px;
+  top: 20px;
+  z-index: 10;
+  width: 850px;
+  height: 600px;
+}
+
+
+
+.product {
+  padding-bottom: 100px;
+}
+
+.product-brown {
+  text-align: center;
+}
+
+.product-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+  
+}
+
+.product-list-item {
+  list-style: none;
+}
+
+.product-list-link {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  opacity: 0.6;
+  border-bottom: 2px solid transparent;
+}
+.product-list-link:focus {
+  border-bottom: 2px solid #D23166;
+  color: #000000;
+  opacity: 1;
+}
+
+
+
+.ice-cream-page {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brown-bread {
+  
+}
+
+.brown-bread-title {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 36px;
+  color: #000000;
+}
+
+.brown-bread-text {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  width: 454px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000
+}
+
+.header-link {
+  margin-top: 20px;
+}
+
+.reverse {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.two {
+  text-align: end;
+}
+
+.adele-top {
+  display: flex;
+  flex-direction: column;
+}
+
+.adele-parent {
+  display: flex;
+  align-items: center;
+  
+}
+
+.adele-img {
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.man-img {
+  border-radius: 50%;
+}
+
+.brown-bread-text {
+  margin-top: 50px;
+}
+
+.section-fifth {
+  background-color: rgba(242, 206, 218, 0.35);
+}
+
+.download-apps-img {
+  width: 269px;
+  height: 552px;
+  border-radius: 33px;
+  box-shadow: -10px 10px 10px #8c8c8c;
+  
+}
+
+.download-apps {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 648px;
+}
+
+.download-apps-content h3 {
+  font-weight: 600;
+  font-size: 44.2px;
+  line-height: 52px;
+  color: #000000;
+  margin-bottom: 20px;
+  
+}
+
+.download-apps-content p {
+  width: 607px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.01em;
+  color: #0F0101;
+  opacity: 0.7;
+  margin-bottom: 29px;
+}
+
+.download-apps-content ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.download-apps-li-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  background-color: #ffffff;
+  border-radius: 3px;
+}
+
+.download-apps-content ul li span {
+  font-size: 22px;
+  line-height: 26px;
+  color: #000000;
+  margin-left: 10px;
+}
+
+.apk_ios {
+  margin-top: 39px;
+  display: flex;
+  align-items: center;
+}
+
+.apk_ios a+a {
+  margin-left: 7px;
+}
+
+.form h3 {
+  font-size: 44px;
+  line-height: 52px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 36px;
+}
+
+.form-form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form input {
+  margin-bottom: 37px;
+  padding: 19px 25px;
+  outline: none;
+  border: 1px solid #FFA3A3;
+  border-radius: 5px;
+}
+
+.form input+input {
+  margin-left: 30px;
+}
+
+.form textarea {
+  resize: none;
+  width: 330px;
+  height: 58px;
+  overflow: hidden;
+  padding: 19px 25px;
+  outline: none;
+  border: 1px solid #FFA3A3;
+  border-radius: 5px 0 0 5px;
+}
+
+.textarea {
+  display: flex;
+  align-items: center;
+}
+
+.form-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  padding: 16px 44px;
+  background-color: #D23166;
+  color: #FAFAFA;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  border: 2px solid #D23166;
+  transition: border 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+  
+}
+
+.form-button:hover {
+  
+  background-color: #FAFAFA;
+  color: #D23166;
+}
+
+.form-button:active {
+  background-color: #ff0055;
+  color: #FAFAFA;
+}
+
+
+
+
+footer {
+  background-color: #0A0808;
+}
+
+.footer {
+  margin-top: 110px;
+  padding-top: 70px;
+  padding-bottom: 104px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fllow-us p {
+  margin-top: 9px;
+  margin-bottom: 25px;
+  font-size: 12px;
+  line-height: 17px;
+  letter-spacing: 0.01em;
+  color: #FFFFFF;
+  width: 207px;
+  opacity: 0.7;
+}
+
+.fllow-us h5 {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #FFFFFF;
+  margin-bottom: 8px;
+  
+}
+
+.footer-icons {
+  display: flex;
+  align-items: center;
+}
+
+.footer-icons li+li {
+  margin-left: 10px;
+}
+
+
+
+.home li {
+  margin-bottom: 10px;
+}
+
+.home a {
+  padding-bottom: 1px;
+  font-size: 12px;
+  line-height: 14px;
+  color: rgba(255, 255, 255, 0.7);
+  transition: color 0.3s ease, border-bottom 0.2s ease;
+}
+
+.home a:hover {
+  
+  color: #ffffff;
+}
+
+.home a:active {
+  border-bottom: 1px solid red;
+}
+
+.second-form form {
+  
+  margin-bottom: 15px;
+}
+
+.second-form input {
+  padding: 19px 25px;
+  outline: none;
+  color: #D23166;
+  border: 2px solid #D64374;
+  border-right: none;
+  border-radius: 5px 0 0 5px;
+}
+
+.second-form h6 {
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: 13px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+
+.second-form .form-button {
+  position: relative;
+  right: 4px;
+  padding: 17px 18px;
+  
+}
+
+
+.wallets ul {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.wallets li+li {
+  margin-left: 15px;
+}
